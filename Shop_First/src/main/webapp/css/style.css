@@ -1,0 +1,34 @@
+.header
+{
+	height:90vh;
+	width:100%;
+}
+
+.center-top
+{
+	height:100%;
+	width:100%;
+}
+
+.proback
+{
+	background:#795548; 
+}
+
+.greenover:hover
+{
+	background:#ffebee;
+	color:#5d4037;
+	border:1px solid #5d4037;
+}
+
+.fa-cart-plus:hover
+{
+	cursor:pointer!important;
+	border:1px solid white!important;
+	border-radius:5px!important;
+	padding:3px!important;
+}
+
+
+

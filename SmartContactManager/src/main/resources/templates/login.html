@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>LogIn</title>
+</head>
+<body>
+
+<section>
+	<h1>login</h1>
+	<form th:action="@{/do_login}" method="post">
+	<input type="text" name="username"/>
+	<input type="password" name="password"/>
+	<input type="submit"/>submit
+	</form>
+</section>
+	
+</body>
+</html>

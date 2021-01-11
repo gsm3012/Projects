@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymleaf.org" 
+				th:replace="base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>Home - Smart Contact Manager</title>
+</head>
+<body>
+	<section class="baner d-flex justify-content-center">
+		
+		<div class="text-center mt-5 pt-4">
+			<h1>Smart Contact Manger</h1>
+			<p>Save your contacts smarter and faster to access it from anywhere, any time. Its, totaly free and user fiendly.</p>
+			<a th:href="@{login}" class= "btn bg-color text-dark">Let's Go</a>
+		</div>		
+	</section>
+	
+</body>
+</html>
